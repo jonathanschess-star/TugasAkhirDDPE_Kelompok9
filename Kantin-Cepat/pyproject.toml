@@ -1,0 +1,30 @@
+[project]
+name = "kantin-decision-helper"
+version = "1.0.0"
+requires-python = ">=3.12"
+authors = [
+    { name = "Faris Hasan", email = "altfaris28@gmail.com" }
+]
+dependencies = [
+    "flet"
+]
+description = "Bantu memilih menu kantin dengan cepat berdasarkan budget dan preferensi pedas."
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop",
+    "flet-web"
+]
+
+[tool.flet.metadata]
+title = "Kantin Cepat"
+
+[tool.flet]
+org = "dev.flet"
+company = "Faris Hasan"
+copyright = "Copyright (C) 2026 by Faris Hasan"
+product = "Kantin Cepat"
+
+[tool.flet.app]
+path = "src"
